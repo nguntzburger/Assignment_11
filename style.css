@@ -1,0 +1,202 @@
+* {
+    font-family: "Avenir Next Condensed";
+    color: #000000;
+   }
+
+/** NAVIGATION & DROP DOWN MENUS **/
+
+  #wd-navbar {
+   position: fixed;
+   opacity: .95;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 10px;
+   background: #FFFFFF;
+   text-align: center;
+   border-bottom :2px solid #CCC;
+  }      
+
+  #wd-navbar ul {
+    list-style: none;
+    margin: 0;     
+    padding: .3em;         
+  }            
+
+  #wd-navbar li {       
+    float: left;      
+    margin-left: 5px;     
+  }      
+
+  #wd-navbar li a {       
+    display: block;      
+    background-color:#FFFFFF;      
+    text-decoration: none;      
+    border: none;      
+    padding: .5em;     
+  }
+
+  #wd-navbar li a:hover {           
+    color: #000000;      
+    text-decoration: underline;      
+  }
+
+  #wd-navbar li ul {       
+    display: none;
+    position: absolute;            
+    padding: 0;      
+  }
+
+  #wd-navbar li:hover ul {       
+    background-color: #FFFFFF;      
+    text-align: center;      
+    line-height: 3em;      
+    display: block;      
+    padding: 10px;      
+  }
+
+  #wd-navbar li li {       
+    float: none;      
+    border-bottom: .75px solid #333;      
+  }
+
+  #wd-navbar li li a {       
+    border: 0;      
+    border-left:  1px solid #CCC;      
+    border-right: 1px solid #CCC;      
+  }
+
+/** HOMEPAGE CONTENT **/
+
+  .home-photo {
+    width: 100%;
+  }
+
+  .home-text {
+    text-align: center;
+    font-size: 1.20em;
+    padding: 100px 340px 400px 340px;
+  }
+
+/** SHOP PAGE CONTENT **/
+
+  #shopcontainer {
+    padding: 10px 50px 700px 50px;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    padding: 150px 0px 20px 45px;
+  }
+
+  #shop-row1 figure  {
+    float: left;
+  }
+
+  #shop-row2  figure {
+    float: left;
+  }
+
+  figure {
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    background-color: white;
+    opacity: .70;
+    width: 100%;
+    padding: 1em;
+    margin: 0;
+    bottom: 0;
+
+  }
+
+/** ABOUT US **/
+
+  #aboutcontainer {
+    padding-bottom: 500px;
+  }
+
+ #aboutcontainer h3 {
+    font-size: 1.5em;
+    padding: 50px 0px 20px 100px;
+  }
+
+  #aboutcontainer img {
+    width: 100%;
+  }
+
+  #p-left {
+    float: left;
+    width: 35%;
+    padding-left: 100px;
+    padding-bottom: 200px;
+  }
+
+  #p-right {
+    float: right;
+    width: 35%;
+    padding-right: 300px;
+  }
+
+/** SERVICES **/
+
+  #services h3 {
+    padding: 100px 0px 500px 100px;
+  }  
+
+/** LOCATIONS **/
+
+  #locations h3 {
+    padding: 100px 0px 500px 100px;
+  }  
+
+/** WHOLESALE **/
+
+   #wholesale h3 {
+    padding: 100px 0px 500px 100px;
+  }  
+
+/** BLOG **/
+
+  #blog h3 {
+    padding: 100px 0px 500px 100px;
+  }
+
+/** FOOTER **/
+
+  #footercontainer {
+    background-color: #333;
+    padding: 100px 75px 10px 75px;
+  }
+
+  #footercontainer ul {
+    color: white;
+    font-weight: lighter;
+    margin: 0;
+    padding: 60px 0px 0px 0px;
+    list-style-type: none;
+    text-align: center;
+    border-top: 1px dashed #FFFFFF;
+    border-radius: 1em;
+  }
+
+  #footercontainer ul li {
+    display: inline;
+    padding: .2em 1em;
+    color: #FFFFFF;
+  }
+
+  #footercontainer img {
+    padding: 0px 15px 0px 0px;
+  }
+
+  .copywrite p {
+    font-size: 75%;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    padding: 50px 0px 10px 0px;
+  }
+
