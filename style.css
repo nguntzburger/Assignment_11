@@ -75,7 +75,32 @@
   .home-text {
     text-align: center;
     font-size: 1.20em;
-    padding: 100px 340px 400px 340px;
+    padding: 100px 225px 0px 225px;
+  }
+
+  #homepage-container h3 {
+    padding-left: 220px;
+      }
+
+  #homepage-images {
+    padding-bottom: 360px;
+    padding-left: 180px;
+  }
+
+  #homepage-images figure {
+   float: left;
+   border: 1px solid #CDCDCD;
+  }
+
+  #homepage-images figcaption {
+    position: absolute;
+    background-color: white;
+    opacity: .70;
+    width: 100%;
+    padding: 1em;
+    margin: 0;
+    bottom: 0;
+
   }
 
 /** SHOP PAGE CONTENT **/
