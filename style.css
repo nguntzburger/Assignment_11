@@ -164,35 +164,130 @@
     padding: 100px 0px 500px 100px;
   }
 
-/** FOOTER **/
+/************************** FOOTER *******************************/
+
+  /** 
+
+  FOOTER INFO LOCATION 
+
+  **/
+    #footer-info {
+      padding-left: 180px;
+    }
 
   #footercontainer {
     background-color: #333;
-    padding: 100px 75px 10px 75px;
+    padding: 50px 75px 50px 75px;
   }
 
-  #footercontainer ul {
+  #footercontainer h4 {
+    float: left;
+    width: 25%;
     color: white;
-    font-weight: lighter;
-    margin: 0;
-    padding: 60px 0px 0px 0px;
-    list-style-type: none;
-    text-align: center;
-    border-top: 1px dashed #FFFFFF;
-    border-radius: 1em;
+    padding-left: 0px;
+    padding-right: 90px;
   }
+  /** 
 
-  #footercontainer ul li {
-    display: inline;
-    padding: .2em 1em;
-    color: #FFFFFF;
-  }
+  GET IN TOUCH SECTION 
 
-  .copywrite p {
-    font-size: 75%;
-    font-weight: lighter;
-    text-align: center;
-    color: white;
-    padding: 50px 0px 10px 0px;
-  }
+  **/
+      #footercontainer-p {
+        float: left;
+        width: 25%;
+        color: white;
+        font-weight: lighter;
+        padding: 0px 60px 0px 0px;
+      }
+
+      #p-short {
+        color: white;
+        border-bottom: 1px dashed white;
+        padding-bottom: 10px;
+      }
+
+      #p-long {
+        color: white;
+        border-bottom: 1px dashed white;
+        padding-bottom: 90px;
+      }
+
+  /** 
+
+  LATEST TWEET SECTION 
+
+  **/
+      #tweet {
+        float: left;
+        color: white;
+        line-height: 1.7em;
+        width: 25%;
+        border-left: 1px dashed white;
+        padding: 0px 60px 80px 30px;
+        }
+
+        #tweet p {
+          color: white;
+          font-weight: lighter;
+        }
+
+        #tweet p a{
+          color: white;
+        }
+
+        #tweet p a:hover {
+          color: #90DBC1;
+        }
+
+        #tweet p a:visited {
+          color: #90DBC1;
+        }
+
+  /**
+
+  CONNECT LIST
+
+  **/
+        
+        #footercontainer ul {
+        float: left;
+        width: 25%;
+        color: white;
+        font-weight: lighter;
+        margin: 0;
+        padding: 0px 30px 20px 10px;
+        list-style-type: none;
+        text-align: center;
+        border-left: 1px dashed white
+        }
+
+       #footercontainer ul li {
+        text-align: left;
+        padding: .3em 1.5em;
+        color: #FFFFFF;
+      }
+
+      #footercontainer ul li a{
+          color: white;
+        }
+
+        #footercontainer ul li a:hover {
+          color: #90DBC1;
+        }
+
+        #footercontainer ul li a:visited {
+          color: #90DBC1;
+        }
+  /**
+
+  COPYWRITE
+
+  **/
+    .copywrite p {
+        font-size: 75%;
+        font-weight: lighter;
+        text-align: center;
+        color: white;
+        padding: 375px 0px 10px 0px;
+      }
 
