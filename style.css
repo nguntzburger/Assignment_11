@@ -176,6 +176,7 @@
     }
 
   #footercontainer {
+    position: absolute;
     background-color: #333;
     padding: 50px 75px 50px 75px;
   }
@@ -236,11 +237,11 @@
         }
 
         #tweet p a:hover {
-          color: #90DBC1;
+          color: #C62222;
         }
 
         #tweet p a:visited {
-          color: #90DBC1;
+          color: #C62222;
         }
 
   /**
@@ -272,11 +273,11 @@
         }
 
         #footercontainer ul li a:hover {
-          color: #90DBC1;
+          color: #C62222;
         }
 
         #footercontainer ul li a:visited {
-          color: #90DBC1;
+          color: #C62222;
         }
   /**
 
